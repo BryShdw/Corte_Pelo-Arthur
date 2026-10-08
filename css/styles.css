@@ -612,52 +612,62 @@ ul { list-style: none; }
   align-items: center;
   justify-content: space-around;
   width: 100%;
+  padding: .4rem 0;
 }
 
-.event-item {
+.event-col {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: .3rem;
-  min-width: 120px;
+  min-width: 125px;
 }
 
-.event-item__icon {
-  font-size: 2rem;
-  filter: drop-shadow(0 3px 6px rgba(0, 0, 0, .1));
-}
-
-.event-item__info {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.event-item__label {
+.event-badge {
+  display: inline-block;
+  padding: .25rem .85rem;
+  border-radius: 999px;
+  background: var(--sky-200);
+  border: 1.5px solid var(--sky-400);
+  color: var(--blue-dark);
   font-family: var(--f-title);
   font-size: .8rem;
-  letter-spacing: 1px;
-  color: var(--blue-primary);
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  margin-bottom: .45rem;
+  box-shadow: 0 2px 6px rgba(30, 80, 140, .08);
 }
 
-.event-item__value {
-  font-family: var(--f-title);
-  font-size: clamp(1.8rem, 7vw, 2.3rem);
-  line-height: 1;
-  color: var(--blue-dark);
-}
-
-.event-item__sub {
+.event-day-name {
   font-family: var(--f-script);
   font-weight: 700;
-  font-size: 1.3rem;
+  font-size: 1.7rem;
   color: var(--gold-dark);
+  line-height: 1.1;
+}
+
+.event-big-number {
+  font-family: var(--f-title);
+  font-weight: 700;
+  font-size: clamp(2.4rem, 9.5vw, 3.2rem);
+  line-height: 1;
+  color: var(--blue-primary);
+  margin: .2rem 0;
+  text-shadow: 2px 2px 0 #ffffff, 0 4px 12px rgba(30, 80, 140, .14);
+}
+
+.event-sub-name {
+  font-family: var(--f-body);
+  font-weight: 800;
+  font-size: 1.05rem;
+  color: var(--blue-dark);
+  letter-spacing: .3px;
 }
 
 .event-divider {
   width: 2px;
-  height: 80px;
-  background: linear-gradient(180deg, transparent, #b8d7f3, transparent);
+  height: 95px;
+  background: linear-gradient(180deg, transparent, var(--sky-400), transparent);
+  border-radius: 2px;
 }
 
 .event-line {
@@ -680,7 +690,14 @@ ul { list-style: none; }
   gap: .4rem;
 }
 
-.venue-icon { font-size: 1.3rem; }
+.venue-pin-svg {
+  width: 22px;
+  height: 22px;
+  fill: var(--blue-primary);
+  flex: none;
+  filter: drop-shadow(0 2px 4px rgba(30, 80, 140, .2));
+}
+
 .venue-label {
   font-family: var(--f-title);
   font-size: 1rem;

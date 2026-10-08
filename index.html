@@ -151,26 +151,22 @@
     <!-- 4. DETALLES DEL EVENTO -->
     <section class="section event-section reveal" style="--delay:.2s">
       <div class="event-card">
-        <!-- Fila de fecha y hora -->
+        <!-- Fila de fecha y hora sin emojis -->
         <div class="event-details-grid">
-          <div class="event-item">
-            <div class="event-item__icon">📅</div>
-            <div class="event-item__info">
-              <span class="event-item__label">DÍA</span>
-              <strong class="event-item__value">Sábado</strong>
-              <span class="event-item__sub">24 de Octubre</span>
-            </div>
+          <div class="event-col">
+            <span class="event-badge">DÍA</span>
+            <span class="event-day-name">Sábado</span>
+            <strong class="event-big-number">24</strong>
+            <span class="event-sub-name">de Octubre</span>
           </div>
 
           <div class="event-divider" aria-hidden="true"></div>
 
-          <div class="event-item">
-            <div class="event-item__icon">⏰</div>
-            <div class="event-item__info">
-              <span class="event-item__label">HORA</span>
-              <strong class="event-item__value">8:00</strong>
-              <span class="event-item__sub">p.m.</span>
-            </div>
+          <div class="event-col">
+            <span class="event-badge">HORA</span>
+            <span class="event-day-name">A las</span>
+            <strong class="event-big-number">8:00</strong>
+            <span class="event-sub-name">p.m.</span>
           </div>
         </div>
 
@@ -179,7 +175,7 @@
         <!-- Lugar y botón mapa -->
         <div class="venue-block">
           <div class="venue-header">
-            <span class="venue-icon">📍</span>
+            <svg class="venue-pin-svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z"/></svg>
             <span class="venue-label">LUGAR:</span>
           </div>
           <p class="venue-name" id="venueName">¡Toca el botón para ver la dirección exacta en el mapa!</p>
