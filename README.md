@@ -4,7 +4,7 @@ Invitación digital interactiva y responsive para el **Corte de Pelo** de **Arth
 
 - **Fecha:** Sábado 24 de Octubre, 8:00 p.m.
 - **Padres:** Jheyner Zuta Saavedra & Yaritza Delgado Oblitas.
-- **Padrinos:** Sección editable en `index.html`.
+- **Padrinos:** Walter Jair Carhuajulca Zevallos & Consuelo Saavedra Salazar.
 - **Ubicación:** [Google Maps](https://maps.app.goo.gl/yNcyCmgx2SY7xG256).
 - **Temática y estilo:** Tonos celestes y azules pasteles, con toques dorados, nubes, estrellas, osito con lazo e ilustración infantil de corte de pelo.
 
